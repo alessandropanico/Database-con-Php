@@ -1,1 +1,4 @@
 Esercizio database molto semplice. Consiste nel connettersi ad un database (usando XAMP e MySql) ed effettuare l'operazione C.R.U.D. (Create, Read, Update, Delete).
+
+Nome db: eserciziopersone
+Tabella: persone
