@@ -1,0 +1,41 @@
+/* Reset dei margini e dei padding per il tag ul */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Stile per la navbar */
+  nav {
+    background-color: #c82828; /* Colore di sfondo */
+  }
+  
+  /* Stile per i link nella navbar */
+  nav a {
+    display: block;
+    color: rgb(0, 0, 0); /* Colore del testo */
+    text-decoration: none; /* Rimuovi il sottolineato dai link */
+    padding: 10px 15px; /* Spaziatura interna per i link */
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  /* Stile per i link quando il cursore si trova sopra di essi */
+  nav a:hover {
+    background-color: #c69797; /* Cambia il colore di sfondo al passaggio del cursore */
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+  }
+  
+  /* Stile per gli elementi <li> della navbar (i singoli elementi della lista) */
+  nav li {
+    display: inline-block; /* Visualizza gli elementi orizzontalmente */
+  }
+  
+  /* Spaziatura tra gli elementi della navbar */
+  nav li + li {
+    margin-left: 20px;
+  }
+  
